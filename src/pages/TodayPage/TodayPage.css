@@ -1,0 +1,15 @@
+.todayPage {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  color: #111111;
+}
+
+.dateTime {
+  padding-bottom: 1rem;
+}
+
+.todayPage h1 {
+  color: #005F89;
+}

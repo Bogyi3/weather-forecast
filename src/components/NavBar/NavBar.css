@@ -1,0 +1,64 @@
+.navBar {
+  width: 100vw;
+  background-color: #005F89;
+  height: 14vh;
+}
+
+.searchContainer {
+  width: 100%;
+  padding: 0 5vw;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.searchContainer input {
+  background-color: #C9E8F7;
+  border: none;
+  border-radius: 0.25rem;
+  height: 6vh;
+  padding: 0.5rem;
+  outline: none;
+}
+
+.city {
+  width: 70%;
+}
+
+.country {
+  width: 30%;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5vw;
+  gap: 0.5rem;
+}
+
+.buttonContainer .navBarLink {
+  flex-grow: 1;
+}
+
+.buttonContainer button {
+  text-transform: uppercase;
+  height: 5vh;
+  width: 100%;
+  background-color: #005F89;
+  border: 1px solid  #C9E8F7;
+  border-radius: 0.25rem;
+  color: #C9E8F7;
+  transition: background-color 0.5s ease;
+}
+
+.buttonContainer button:hover, .buttonContainer button:active, .buttonContainer button:focus {
+  outline: none;
+  border: none;
+  background-color: #C9E8F7;
+  color:  #005F89;
+}
+
